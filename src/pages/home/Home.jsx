@@ -6,7 +6,7 @@ import { useJsApiLoader, Autocomplete } from "@react-google-maps/api";
 
 export default function Home() {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "Your google maps API key here",
+    googleMapsApiKey: "AIzaSyCYC3-gTg2XJFIeo9fura6PoNuQzzPeBlc",
     libraries: ["places"],
   });
   const autocompleteRef = useRef(null);
